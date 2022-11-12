@@ -82,6 +82,7 @@ void mm_instantiate_new_page_family(char *struct_name, uint32_t struct_size) {
     vm_page_family_curr->first_page = NULL;
 }
 
+#if 0
 int main(int argc, char **argv) {
     mm_init();
     printf("VM Page size = %lu\n", SYSTEM_PAGE_SIZE);
@@ -93,3 +94,5 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+
+#endif
